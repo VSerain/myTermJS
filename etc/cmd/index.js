@@ -40,6 +40,10 @@ window.allCmd = [
 		class : StartX
 	},
 	{
+		cmd : 'exit',
+		class : Exit
+	},
+	{
 		cmd : 'presentation',
 		class : Presentation
 	}

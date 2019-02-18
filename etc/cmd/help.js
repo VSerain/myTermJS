@@ -13,6 +13,7 @@ class Help {
 		this.terminal.stdOut('[ clear ] vide le terminal');
 		this.terminal.stdOut('[ edit ] permet d\'editer le contenue d\'un fichier');
 		this.terminal.stdOut('[ startx ] permet de lancée l\'interface graphique');
+		this.terminal.stdOut('[ exit ] permet de quiter l\'interface');
 		this.terminal.stdOut('D\'autre commande sont en cours de développement ;)');
 		exit();
 		
