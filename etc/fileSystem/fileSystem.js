@@ -38,9 +38,9 @@ class FileSystem {
 		let globalDirectory = {
 			'/' : new DirectoryFS('/', 666),
 			'/victor' : new DirectoryFS('victor', 666),
-			'/victor/bloc.txt' : new FileFS('bloc.txt',666, 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaafffffffffffffffffffffffffffffffffffffffaaaa'),
-			'/victor/folder' : new DirectoryFS('folder', 666),
-			'/victor/folder/bloc2.txt' : new FileFS('bloc2.txt', 666),
+			'/victor/test.txt' : new FileFS('test.txt',666, 'Je suis un test'),
+			'/victor/dossier' : new DirectoryFS('dossier', 666),
+			'/victor/dossier/ficher.txt' : new FileFS('ficher.txt', 666),
 			'/etc' : new DirectoryFS('etc', 666),
 		}
 
