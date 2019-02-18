@@ -5,7 +5,7 @@ class StartX {
 
 	main( option = [] , exit ) {
 		const iframeElt = document.createElement('iframe');
-		iframeElt.src="www.ggogle.fr";
+		iframeElt.src="http://serain.be";
 		iframeElt.style.displayNone = true;
 		this.terminal.stdOut('Demarage en cours');
 		iframeElt.addEventListener('load', (e)=> {
