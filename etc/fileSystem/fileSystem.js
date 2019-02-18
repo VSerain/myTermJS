@@ -40,7 +40,7 @@ class FileSystem {
 			'/victor' : new DirectoryFS('victor', 666),
 			'/victor/test.txt' : new FileFS('test.txt',666, 'Je suis un test'),
 			'/victor/dossier' : new DirectoryFS('dossier', 666),
-			'/victor/dossier/ficher.txt' : new FileFS('ficher.txt', 666),
+			'/victor/dossier/file.txt' : new FileFS('file.txt', 666),
 			'/etc' : new DirectoryFS('etc', 666),
 		}
 
