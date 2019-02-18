@@ -1,0 +1,55 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #3a3a3a;
+}
+
+#terminal {
+	overflow: auto;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	color : white;
+	padding-top: 5px;
+	padding-left: 15px;
+	padding-bottom: 50px;
+}
+
+p {
+	margin: 2px 0px;
+}
+
+#edit {
+	position: fixed;
+    top: 45px;
+    left: 5px;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background-color: transparent;
+    color: white;
+    border: 0px;
+    width: 100vw;
+}
+
+#editorInfo {
+	color: #559eff;
+    margin: auto;
+    text-align: center;
+    font-size: 1.2em;
+    border-bottom: #559eff 1px solid;
+    padding: 10px;
+}
+
+iframe {
+	position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 99999;
+}
